@@ -1,3 +1,5 @@
+http://thelazyprogrammer.azurewebsites.net
+
 - index.htlm:
   standaard opmaak van de website
  - chat.js:

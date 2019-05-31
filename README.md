@@ -4,7 +4,9 @@
   functie die aangeeft door wie en wanneer een bericht is gepost.
  - Styles.css
   opmaak van het html bestand
- - 
+ - dbconnection.js
+  promise / connectie met de mongodb database
+  (promise with bluebird)
 
 
 

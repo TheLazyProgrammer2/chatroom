@@ -30,3 +30,5 @@ https://www.youtube.com/watch?v=tzNOqcoupWQ&list=PLa0qIOBfWOZAXivkBPPn84V6OpPUb8
 https://github.com/MyNameIsURL/Socket_io_Chat_Room?fbclid=IwAR16Ww_WO0BPO8t9Qbt78c4f1XycJ_GTydqMsh8VeUNtYQOpOY6avx4tUEA
 
 https://www.npmjs.com/package/simple-datetime-formater
+
+https://projects.raspberrypi.org/en/projects/getting-started-with-git

@@ -7,7 +7,12 @@
  - dbconnection.js
   promise / connectie met de mongodb database
   (promise with bluebird)
-
+ - chatrout.js
+  ...
+ - app.js
+  ...
+ - socket.js
+  ...
 
 
 # chatroom

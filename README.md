@@ -13,7 +13,8 @@
   ...
  - socket.js
   ...
-
+ - chatschema.js
+  bepaald oe het bericht wordt opgeslagen in de database.
 
 # chatroom
 informative links:

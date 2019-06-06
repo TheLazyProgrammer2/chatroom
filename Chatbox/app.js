@@ -3,19 +3,19 @@ const app = express()//maak een nieuw express application
 const http = require("http").Server(app)// heeft http module nodig
 const io = require ("socket.io");//heeft socket.io module nodig
 const port = 500;
-const socket =io(http);
+const socket = io(http);
 const bodyParser = require("body-parser");
-const chatRouter = require("./route/chatrout");
+const chatRouter = require("chatrout");
 
 //bodyparser middleware
 app.use(bodyParser.json());
 
 //routes
-app.use("/chats", chatRouter);
+app.use("ChatSchema", chatRouter);
 
 //database connection
-const Chat = require("./models/ChatSchema");
-const  connect  = require("./dbconnect");
+const Chat = require("ChatSchema");
+const  connect  = require("dbconnection");
 
 //setup event listener
 socket.on("connection", socket  =>  {

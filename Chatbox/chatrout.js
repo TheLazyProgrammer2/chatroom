@@ -1,6 +1,6 @@
 const  express  = require("express");
-const  connectdb  = require("./../dbconnect");
-const  Chats  = require("./../models/Chat");
+const  connectdb  = require("dbconnection");
+const  Chats  = require("ChatSchema");
 
 const  router  =  express.Router();
 
